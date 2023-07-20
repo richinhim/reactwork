@@ -1,0 +1,54 @@
+메타코딩
+*react 오프라인 1강 - 설치 및 세팅
+https://youtu.be/hdsALpVJwgU?list=PL93mKxaRDidEfLM0I_FFb-98vfAQgXT82
+
+옵져버 패턴
+-트리거 
+
+react  - 변경감지/UI업데이트 
+엔진(데몬)
+
+code .   - vs code 
+
+
+생활코딩 - react 강좌 확인
+
+
+node -v
+
+node --version
+
+/////////////////////////////////////////////
+
+1)nodejs installation
+
+2)npm  -v 
+node package manager
+
+3)npx -v
+
+yarn
+
+4)npx create-react-app my-app
+
+npm ->라이브러리를 다운 ->빌드 ->프로젝트 3개(로컬에 다 다운) -프로젝트 마다, 글로벌 
+
+npx->라이브러리를 다운->빌드->프로젝트 3개(다운 받은 걸 재사용, 없으면 다운)->실행->삭제 
+->
+
+5)cd my-app
+
+6)npm start 
+
+
+React App
+
+7)ESLint 설치 - vs code extension
+
+8)Prettier  -정렬
+
+
+9)Reactjs Code -자동완성
+
+
+
