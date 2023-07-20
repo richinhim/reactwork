@@ -57,3 +57,17 @@ React App
 https://ko.legacy.reactjs.org/docs/introducing-jsx.html
 
 3.react 오프라인 3강 - 기본문법
+(1) return시에 하나의 DOM만 리턴할 수 있다.
+
+(2) 변수선언은 let 혹은 const로만 해야함.
+
+(3) if사용불가능 X -> 삼항연산자 (조건 ? 값(true):값(false))
+
+(4) 조건부 렌더링(조건 && 값(true))
+
+ (5) css디자인
+     - 내부에 적는 방법
+     - 외부파일에 적는 방법
+     - 라이브러리 사용 (부트스트랩,component-styled)
+
+*
