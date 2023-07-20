@@ -50,5 +50,10 @@ React App
 
 9)Reactjs Code -자동완성
 
+2.react 오프라인 2강 - 실행흐름이해하기
+0. React 엔진 - 데이터 변경 감지에서 UI그려주는 !!
+1. 실행방식(index.html) -SPA
+2. JSX 문법
+https://ko.legacy.reactjs.org/docs/introducing-jsx.html
 
-
+3.react 오프라인 3강 - 기본문법
