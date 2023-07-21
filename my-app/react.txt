@@ -77,6 +77,11 @@ return 렌더링
 컴포넌트화
 모듈
 
+5. react 오프라인 5강 - 배열 수정하기(map과 spread응용)
+https://youtu.be/IQovah5bz3Q?list=PL93mKxaRDidEfLM0I_FFb-98vfAQgXT82
 
+*자바스크립트 forEach/map 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
 
 
