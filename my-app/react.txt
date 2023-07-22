@@ -89,3 +89,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 React안에 hooks 라이브러리 상태값이 됨.
 
 React -> hooks library -> useState
+
+레퍼런스의 변경이 없다.
