@@ -1,40 +1,40 @@
 import './App.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+
+//import Sub1 from './Sub1';
+//import Third from './aa/Third';
+//import { num } from './Sub1';
 
 function App() {
-  // 다운로드 받음
-
-  console.log('APP 실행됨');
-
-  const [num, setNum] = useState(5);
-
-  let sample = [
-    { id: 1, name: '홍길동' },
-    { id: 2, name: '임꺽정' },
-    { id: 3, name: '장보고' },
-    { id: 4, name: '코스' },
-  ];
-  const [users, setUsers] = useState(sample); //레퍼런스 변경되야 동작!!
+  const [data, setData] = useState(0);
 
   const download = () => {
-    //fetch().then().then();
-    //기존 데이터 세팅
-    //const a = sample.concat({ id: 5, name: '조자룡' });
-    //console.log(sample);
-
-    setUsers([...sample, { id: num, name: '조자룡' }]);
-    //num++;
-    setNum(num + 1);
+    // 다운로드 받고 (통신)
+    let downloadData = 5; // 가정
+    setData(downloadData);
   };
-  //랜더링 시점 = 상태값 변경
+  //실행시점:
+  // (1) App()함수가 최초 실행될 때(마운트될 때, App() 그림이 최초 그려질 때) - 그림이 그려질때
+
+  // (1) App() 그림이 최초 그려질 때
+  // (2) 상태 별수가 변경될 때
+  //
+  useEffect(() => {
+    console.log('useEffect 실행됨');
+
+    download();
+  }, []);
+
   return (
     <div>
-      <button onClick={download}>다운로드</button>
-      {users.map((u) => (
-        <h1>
-          {u.id},{u.name}
-        </h1>
-      ))}
+      <h1> 데이터: {data}</h1>
+      <button
+        onClick={() => {
+          setData(data + 1);
+        }}
+      >
+        더하기
+      </button>
     </div>
   );
 }
